@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 1px solid black;
+    width: 33%;
+    display: inline-block;
+}
+.videoBox{
+    width: 400px;
+    height: auto;
+}
