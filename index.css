@@ -73,6 +73,6 @@ details > .videoDetails{
     width: 20px;
     height: auto;
     position: absolute;
-    right: 16px;
+    right: 24px;
     z-index: 1;
 }
