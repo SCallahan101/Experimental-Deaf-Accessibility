@@ -3,12 +3,67 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+#title{
+    text-align: center;
+    margin: 5px;
+}
 section{
     border: 1px solid black;
-    width: 33%;
+    width: 30%;
+    height: 90vh;
     display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+.theList{
+    border: 1px solid black;
+}
+ul{
+    text-align: initial;
+    padding-left: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 42%;
+    word-break: break-word;
+    vertical-align: top;
+}
+ul > li{
+    border-bottom: solid 1px black;
+}
+details{
+    position: relative;
+}
+details > .videoDetails{
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 .videoBox{
     width: 400px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modalVid{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.modal-content{
+    position: relative;
+    margin-top: 10px;
+}
+#modalBox{
+    display: none;
+}
+.closeX{
+    border: 1px solid black;
+    background: white;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 16px;
+    z-index: 1;
 }
