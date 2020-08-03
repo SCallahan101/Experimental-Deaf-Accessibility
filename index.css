@@ -3,18 +3,27 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+#container{
+    display: flex;
+}
 #title{
     text-align: center;
     margin: 5px;
 }
 section{
     border: 1px solid black;
-    width: 30%;
+    margin: 0 5px;
     height: 90vh;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
     text-align: center;
+}
+section > h1{
+    margin-bottom: 0;
+}
+section > p:first-of-type{
+    margin-top: 5px;
 }
 .theList{
     border: 1px solid black;
